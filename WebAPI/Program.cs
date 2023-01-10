@@ -12,6 +12,7 @@ namespace WebAPI
     {
         public static void Main(string[] args)
         {
+            Console.Writeline("PATATES");
             var builder = WebApplication.CreateBuilder(args);
             builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
             builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
