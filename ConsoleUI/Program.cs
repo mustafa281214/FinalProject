@@ -40,5 +40,6 @@ namespace ConsoleUI
         //        }
         //    }
         //}
+        Console.Writeline("PATATES");
     }
 }
